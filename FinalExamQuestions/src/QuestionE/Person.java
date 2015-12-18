@@ -95,7 +95,7 @@ public abstract class Person {
 
 	public Person(String FirstName, String MiddleName, String LastName,
 			Date DOB, String Address, String Phone_number, String Email) {
-		this.setPersonID();
+		this.setPersonID(PersonID);
 		this.FirstName = FirstName;
 		this.MiddleName = MiddleName;
 		this.LastName = LastName;
