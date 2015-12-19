@@ -11,8 +11,13 @@ public class Rectangle extends Shape {
 	}
 
 	@Override
-	public double ComputeArea() {
-		return this.getX() * this.getY();
+	public double ComputeArea() throws IllegalRectangle{
+		if(this.getX()>0 && this.getY()>0) {
+			return this.getX() * this.getY();
+		}else{
+			throw new IllegalRectangle( -this.getX(), -this.getY());
+		}
+		
 	}
 	
 	

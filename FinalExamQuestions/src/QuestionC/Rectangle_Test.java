@@ -27,14 +27,14 @@ public class Rectangle_Test {
 	}
 
 	@Test
-	public void Rectangle_Test1() {
+	public void Rectangle_Test1() throws IllegalRectangle {
 		
 		Rectangle r2 = new Rectangle(-5, -10);
 		assertTrue(r2.ComputeArea() == 50);
 	}
 	
 	@Test
-	public void Rectangle_Test2() {
+	public void Rectangle_Test2() throws IllegalRectangle {
 		
 	
 		Rectangle r2 = new Rectangle(-5, -10);

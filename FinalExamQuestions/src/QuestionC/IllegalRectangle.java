@@ -1,6 +1,7 @@
 package QuestionC;
 
 
+@SuppressWarnings("serial")
 public class IllegalRectangle extends Exception{
 
 	private int x;
